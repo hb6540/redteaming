@@ -1,0 +1,9 @@
+#include <stdlib.h>
+
+int main () {
+        int a;
+        for (a = 0; a <20; a = a+1){
+                int status = system("nc -nlp $(shuf -i 100-1000 -n 50) &");
+        }
+        return 0;
+}
