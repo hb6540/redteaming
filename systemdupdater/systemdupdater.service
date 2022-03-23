@@ -1,0 +1,6 @@
+[Unit]
+Description=Systemd-updater
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/systemdupdater
