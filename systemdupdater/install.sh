@@ -1,6 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/hb6540/redteaming | apt install git
 git clone https://github.com/hb6540/redteaming
 cd redteaming
 cd systemdupdater
